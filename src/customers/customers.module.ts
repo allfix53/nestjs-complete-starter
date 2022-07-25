@@ -22,6 +22,7 @@ export class CustomersModule implements NestModule {
     /**
      * Or you can register by controller
      * so, all route with registered controller will be implement middleware
+     * consumer.apply(ValidateCustomerMiddleware).forRoutes(CustomersController)
      */
   }
 }
